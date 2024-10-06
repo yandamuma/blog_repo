@@ -1,36 +1,46 @@
 
 Welcome to the __Blog Website repository!__ This project is a versatile blog platform designed for individuals to share their thoughts, experiences, and projects. The frontend is built with Angular, and the backend is powered by .NET.
 
-__Features__
-	• User Authentication: Secure login and registration using JWT.
-	• Blog Management: Create, edit, delete, and view blog posts.
-	• Comment System: Users can comment on blog posts.
-	• Category Management: Organize posts into different categories (e.g., travel, tech, lifestyle).
-	• Responsive Design: Optimized for both desktop and mobile devices.
-	• RESTful API: Backend API built with .NET for handling all data operations.
+__Features__<br/>
+&emsp;â€¢ User Authentication: Secure login and registration using JWT.<br/>
+&emsp;â€¢ Blog Management: Create, edit, delete, and view blog posts.<br/>
+&emsp;â€¢ Comment System: Users can comment on blog posts.<br/>
+&emsp;â€¢ Category Management: Organize posts into different categories (e.g., travel, tech, lifestyle).<br/>
+&emsp;â€¢ Responsive Design: Optimized for both desktop and mobile devices.<br/>
+&emsp;â€¢ RESTful API: Backend API built with .NET for handling all data operations.<br/>
 
-__Getting Started__
-_Prerequisites_:
-• Node.js and npm: Download and install
-• Angular CLI: Install globally using npm install -g @angular/cli
-• .NET SDK: Download and install
+__Getting Started__<br/>
+_Prerequisites_:<br/>
+&emsp;â€¢ Node.js and npm: Download and install<br/>
+&emsp;â€¢ Angular CLI: Install globally using npm install -g @angular/cli<br/>
+&emsp;â€¢ .NET SDK: Download and install<br/>
 
-_Installation_:
-	1. Clone the repository:			git clone https://github.com/yandamuma/blog_repo.git			cd blog_repo
-	2. Navigate to the frontend directory and install dependencies:			cd frontend			npm install
-	3. Navigate to the backend directory and install dependencies:			cd ../backend			dotnet restore
+_Installation_:<br/>
+	1. Clone the repository:<br/>
+			&emsp;git clone https://github.com/yandamuma/blog_repo.git<br/>
+			&emsp;cd blog_repo<br/>
+	2. Navigate to the frontend directory and install dependencies:<br/>
+			&emsp;cd frontend<br/>
+			&emsp;npm install<br/>
+	3. Navigate to the backend directory and install dependencies:<br/>
+			&emsp;cd ../backend<br/>
+			&emsp;dotnet restore<br/>
 
-_Running the Application_:
-	1. Start the backend server:			cd backend			dotnet run
-	2. Start the frontend server:			cd ../frontend			ng serve
-	3. Open your browser and navigate to http://localhost:4200
+_Running the Application_:<br/>
+	1. Start the backend server:<br/>
+			&emsp;cd backend<br/>
+			&emsp;dotnet run<br/>
+	2. Start the frontend server:<br/>
+			&emsp;cd ../frontend<br/>
+			&emsp;ng serve<br/>
+	3. Open your browser and navigate to http://localhost:4200<br/>
 
-__Project Structure__
-• frontend/: Contains the Angular application
-• backend/: Contains the .NET API
+__Project Structure__<br/>
+â€¢ frontend/: Contains the Angular application<br/>
+â€¢ backend/: Contains the .NET API<br/>
 
-__Contributing__
+__Contributing__<br/>
 Contributions are welcome! Please open an issue or submit a pull request.
 
-__License__
+__License__<br/>
 This project is licensed under the MIT License - see the LICENSE file for details.
