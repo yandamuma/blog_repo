@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umr.BlogCraft.WebAPI", "Umr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umr.BlogCraft.UI", "Umr.BlogCraft.UI\Umr.BlogCraft.UI.csproj", "{3B900061-272C-4FB5-8B22-6BC167CFD411}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Umr.BlogCraft.Database", "Umr.BlogCraft.Database\Umr.BlogCraft.Database.sqlproj", "{254CBC35-92DF-45A4-A1D3-4719138D22A5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +21,6 @@ Global
 		{3B900061-272C-4FB5-8B22-6BC167CFD411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B900061-272C-4FB5-8B22-6BC167CFD411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B900061-272C-4FB5-8B22-6BC167CFD411}.Release|Any CPU.Build.0 = Release|Any CPU
-		{254CBC35-92DF-45A4-A1D3-4719138D22A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{254CBC35-92DF-45A4-A1D3-4719138D22A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{254CBC35-92DF-45A4-A1D3-4719138D22A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{254CBC35-92DF-45A4-A1D3-4719138D22A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{254CBC35-92DF-45A4-A1D3-4719138D22A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{254CBC35-92DF-45A4-A1D3-4719138D22A5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
