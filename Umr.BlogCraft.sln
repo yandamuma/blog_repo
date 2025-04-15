@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umr.BlogCraft.WebAPI", "Umr.BlogCraft.WebAPI\Umr.BlogCraft.WebAPI.csproj", "{ADF68BAC-6229-47A9-8EC5-8F9604B6877F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umr.BlogCraft.UI", "Umr.BlogCraft.UI\Umr.BlogCraft.UI.csproj", "{3B900061-272C-4FB5-8B22-6BC167CFD411}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umr.BlogCraft.Web", "Umr.BlogCraft.Web\Umr.BlogCraft.Web.csproj", "{00DE480C-38F1-CC71-2EA6-2142EF91683F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADF68BAC-6229-47A9-8EC5-8F9604B6877F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADF68BAC-6229-47A9-8EC5-8F9604B6877F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADF68BAC-6229-47A9-8EC5-8F9604B6877F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADF68BAC-6229-47A9-8EC5-8F9604B6877F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B900061-272C-4FB5-8B22-6BC167CFD411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B900061-272C-4FB5-8B22-6BC167CFD411}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B900061-272C-4FB5-8B22-6BC167CFD411}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B900061-272C-4FB5-8B22-6BC167CFD411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DE480C-38F1-CC71-2EA6-2142EF91683F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DE480C-38F1-CC71-2EA6-2142EF91683F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DE480C-38F1-CC71-2EA6-2142EF91683F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DE480C-38F1-CC71-2EA6-2142EF91683F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
