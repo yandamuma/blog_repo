@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
+using Umr.BlogCraft.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,10 @@ builder.Services.AddSpaStaticFiles(configuration =>
 {
     configuration.RootPath = "ClientApp/dist";
 });
+
+builder.Services.AddDbContext<BlogCraftDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -16,6 +22,11 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
+}
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<BlogCraftDbContext>();
+    db.Database.Migrate();
 }
 
 app.UseHttpsRedirection();
@@ -44,7 +55,7 @@ app.UseSpa(spa =>
 
     if (!app.Environment.IsDevelopment())
     {
-        spa.UseAngularCliServer(npmScript: "dev");
+        spa.UseAngularCliServer(npmScript: "start");
     }
 });
 

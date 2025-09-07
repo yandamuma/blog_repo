@@ -9,15 +9,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="8.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="8.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Umr.BlogCraft.Data\Umr.BlogCraft.Data.csproj" />
   </ItemGroup>
 
 	<Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition="'$(ciBuild)' != 'true' And '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules')">
 		<Exec Command="node --version" ContinueOnError="true">
 			<Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
 		</Exec>
-		<Error Condition="$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project." />
-		<Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..."/>
+		<Error Condition="$(ErrorCode) != '0'" Text="Node.js is required to build and run this project." />
+		<Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
 		<Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
 	</Target>
 
