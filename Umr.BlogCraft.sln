@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umr.BlogCraft.Web", "Umr.BlogCraft.Web\Umr.BlogCraft.Web.csproj", "{64F05D11-58E5-41F0-B506-8D927B4B1BC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umr.BlogCraft.Data", "Umr.BlogCraft.Data\Umr.BlogCraft.Data.csproj", "{A4384E2F-1C4E-4E7B-A1C6-CBB1B3C9C004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umr.BlogCraft.Model", "Umr.BlogCraft.Model\Umr.BlogCraft.Model.csproj", "{0FD6F860-AA4B-4B4F-BEFB-16728DC8855C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{64F05D11-58E5-41F0-B506-8D927B4B1BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64F05D11-58E5-41F0-B506-8D927B4B1BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64F05D11-58E5-41F0-B506-8D927B4B1BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4384E2F-1C4E-4E7B-A1C6-CBB1B3C9C004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4384E2F-1C4E-4E7B-A1C6-CBB1B3C9C004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4384E2F-1C4E-4E7B-A1C6-CBB1B3C9C004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4384E2F-1C4E-4E7B-A1C6-CBB1B3C9C004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD6F860-AA4B-4B4F-BEFB-16728DC8855C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD6F860-AA4B-4B4F-BEFB-16728DC8855C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD6F860-AA4B-4B4F-BEFB-16728DC8855C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD6F860-AA4B-4B4F-BEFB-16728DC8855C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

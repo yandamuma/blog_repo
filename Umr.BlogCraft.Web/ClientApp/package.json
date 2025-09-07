@@ -5,7 +5,7 @@
     "ng": "ng",
     "dev": "ng serve --watch --configuration local --hmr",
     "build": "ng build",
-    "start": "echo Starting && ng serve",
+    "start": "ng serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ClientApp": "node dist/client-app/server/server.mjs"
