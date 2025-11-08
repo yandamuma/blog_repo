@@ -85,33 +85,33 @@ namespace Umr.BlogCraft.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "PostTags",
+                name: "PostsTags",
                 columns: table => new
                 {
-                    PostId = table.Column<int>(type: "int", nullable: false),
-                    TagId = table.Column<int>(type: "int", nullable: false)
+                    PostsId = table.Column<int>(type: "int", nullable: false),
+                    TagsId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PostsTags", x => new { x.PostId, x.TagId });
+                    table.PrimaryKey("PK_PostsTags", x => new { x.PostsId, x.TagsId });
                     table.ForeignKey(
-                        name: "FK_PostTags_Posts_PostId",
-                        column: x => x.PostId,
+                        name: "FK_PostsTags_Posts_PostsId",
+                        column: x => x.PostsId,
                         principalTable: "Posts",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_PostTags_Tags_TagId",
-                        column: x => x.TagId,
+                        name: "FK_PostsTags_Tags_TagsId",
+                        column: x => x.TagsId,
                         principalTable: "Tags",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_PostTags_TagId",
-                table: "PostTags",
-                column: "TagId");
+                name: "IX_PostsTags_TagsId",
+                table: "PostsTags",
+                column: "TagsId");
         }
 
         /// <inheritdoc />
@@ -121,7 +121,7 @@ namespace Umr.BlogCraft.Data.Migrations
                 name: "Comments");
 
             migrationBuilder.DropTable(
-                name: "PostTags");
+                name: "PostsTags");
 
             migrationBuilder.DropTable(
                 name: "Users");

@@ -12,7 +12,7 @@ using Umr.BlogCraft.Data;
 namespace Umr.BlogCraft.Data.Migrations
 {
     [DbContext(typeof(BlogCraftDbContext))]
-    [Migration("20250907143523_InitialDesign")]
+    [Migration("20251108070727_InitialDesign")]
     partial class InitialDesign
     {
         /// <inheritdoc />
